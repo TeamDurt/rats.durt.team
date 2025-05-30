@@ -1,10 +1,11 @@
 <script>
     import { page } from "$app/state";
+    import { redirectToWelcome } from "$lib";
 
     const navItems = [
-        { path: '/', label: 'главная' },
-        { path: '/hints', label: 'подсказки' },
-        { path: '/about', label: 'об ивенте' }
+        { path: redirectToWelcome ? "/welcome" : "/", label: "главная" },
+        { path: "/hints", label: "подсказки" },
+        { path: "/about", label: "об ивенте" }
     ];
 </script>
 

@@ -4,6 +4,6 @@
     import { onMount } from "svelte";
 
     onMount(() => {
-        if (redirectToWelcome) goto("/welcome");
+        if (!redirectToWelcome) goto("/");
     });
 </script>
