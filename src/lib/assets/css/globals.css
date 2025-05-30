@@ -1,14 +1,25 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import "tailwindcss";
 
-    font-family: Gilroy, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
+@theme {
+    --color-primary: #b2ff00;
+    --color-paragraph: #515151;
+    --color-heading: #ffffff;
+    --color-background: #050505;
+}
 
-    color: #ffffff;
+@layer base {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+        font-family: Gilroy, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+
+        color: #515151;
+    }
 }
 
 body {
