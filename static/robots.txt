@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rats.durt.team/sitemap.xml

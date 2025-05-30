@@ -1,0 +1,28 @@
+{
+	"name": "rats.durt.team",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "bun build/index.js",
+		"dev": "bun --bun vite dev",
+		"build": "bun --bun vite build",
+		"preview": "bun --bun vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+	},
+	"devDependencies": {
+		"@rollup/plugin-json": "^6.1.0",
+		"@sveltejs/adapter-static": "^3.0.0",
+		"@sveltejs/enhanced-img": "^0.3.0",
+		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/vite-plugin-svelte": "^3.0.0",
+		"gh-pages": "^6.3.0",
+		"sass": "^1.77.8",
+		"svelte": "^4.2.7",
+		"svelte-check": "^3.6.0",
+		"tslib": "^2.4.1",
+		"typescript": "^5.0.0",
+		"vite": "^5.0.3"
+	},
+	"type": "module"
+}
