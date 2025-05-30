@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { progressSteps } from "$lib/state";
+    import { progressSteps } from "$lib/config";
 </script>
 
 <div class="w-full bg-card-bg rounded-4xl px-20 py-5 flex flex-row items-center gap-8">

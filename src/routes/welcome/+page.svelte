@@ -1,6 +1,6 @@
 <script lang="ts">
     import { goto } from "$app/navigation";
-    import { redirectToWelcome } from "$lib/state";
+    import { redirectToWelcome } from "$lib/config";
     import PathProgress from "$lib/components/PathProgress.svelte";
     import { onMount } from "svelte";
 

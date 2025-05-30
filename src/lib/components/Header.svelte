@@ -1,6 +1,6 @@
 <script>
     import { page } from "$app/state";
-    import { redirectToWelcome } from "$lib/state";
+    import { redirectToWelcome } from "$lib/config";
 
     const navItems = [
         { path: redirectToWelcome ? "/welcome" : "/", label: "главная" },
