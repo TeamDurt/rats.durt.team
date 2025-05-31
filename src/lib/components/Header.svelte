@@ -9,7 +9,7 @@
     ];
 </script>
 
-<div class="w-full h-fit flex flex-row items-center py-4 gap-16">
+<div class="w-full h-fit flex flex-row items-center py-4 gap-20">
     <a href="/" class="text-primary font-bold text-3xl">Ratsmania</a>
     {#each navItems as { path, label }}
         <a

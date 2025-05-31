@@ -2,7 +2,7 @@
     import { progressSteps } from "$lib/config";
 </script>
 
-<div class="w-full bg-card-bg rounded-4xl px-20 py-5 flex flex-row items-center gap-8">
+<div class="w-full bg-card-bg rounded-[40px] px-20 py-5 flex flex-row items-center gap-8">
     {#each progressSteps as step}
         {#if step.type === "point"}
             {#if step.status === "empty"}
