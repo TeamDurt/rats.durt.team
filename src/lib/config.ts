@@ -7,11 +7,11 @@ const COLORS = {
 export const redirectToWelcome = false;
 
 export const relicsOpened = {
-    musicDisk: true,
-    blade: true,
-    staff: true,
-    egg: true,
-    voodoo: true,
+    musicDisk: false,
+    blade: false,
+    staff: false,
+    egg: false,
+    voodoo: false,
 };
 
 export const progressSteps = [
