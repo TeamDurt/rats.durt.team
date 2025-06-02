@@ -4,9 +4,10 @@
     import Header from "$lib/components/Header.svelte";
     import bg from "$lib/assets/img/lit_bg.png";
     import MobileBlocker from "$lib/components/MobileBlocker.svelte";
+    import type { Snippet } from "svelte";
 
     interface Props {
-        children?: import('svelte').Snippet;
+        children?: Snippet;
     }
 
     let { children }: Props = $props();
