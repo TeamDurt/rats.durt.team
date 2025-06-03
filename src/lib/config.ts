@@ -14,7 +14,9 @@ export const relicsOpened = {
     voodoo: false,
 };
 
-export const progressSteps = [
+type ProgressStep = { type: "point", status: "empty" | "point" | "completed", color: string } | { type: "line", progress: number };
+
+export const progressSteps: ProgressStep[] = [
     { type: "point", status: "completed", color: COLORS.heading },
     { type: "line", progress: 100 },
     { type: "point", status: "point", color: COLORS.primary },

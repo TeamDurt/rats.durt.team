@@ -100,7 +100,6 @@
 <h2 class="text-primary font-semibold text-4xl mt-20 mb-8">Ваш прогресс в пути Чумного Доктора:</h2>
 <PathProgress />
 
-
 <svg
     width="40"
     height="20"
