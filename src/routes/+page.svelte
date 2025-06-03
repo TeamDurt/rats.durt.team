@@ -122,7 +122,7 @@
 <div class="w-full h-[592px] mb-12 bg-card-bg rounded-[40px] relative flex flex-row">
     <img src={pyramidStep} alt="Pyramid" class="h-full" />
     <div class="grow h-full flex flex-col gap-4 p-12 pl-0">
-        <h2 class="text-primary font-semibold text-5xl/snug z-10">Пирамида Плутуса</h2>
+        <h2 class="text-primary font-semibold text-5xl/snug z-10">Пирамида Зефроса</h2>
         <p class="text-lg font-light mt-2 z-10">
             Пирамида — один из ключевых опорных пунктов чумного доктора. Она была захвачена им после разрушения древних защитных механизмов. Внутри хранятся важные ресурсы и фрагменты забытых знаний, которые доктор использует для своих экспериментов.<br/><br/>
             Охраняет пирамиду его самый преданный воин — крыса Зефрос. Он остаётся внутри, выполняя приказ не подпускать никого к тайнам, скрытым в глубинах сооружения. Преодолеть Зефроса — единственный путь вперёд.
