@@ -29,3 +29,10 @@ export const progressSteps: ProgressStep[] = [
 export const currentStep: "waiting" | "pyramid" | "labyrinth" | "final" = "pyramid";
 export const stepNumber = 1;
 export const stepOffset = 96 + stepNumber * 336;
+
+export const dungeonHintsOpened = {
+    basement: true,
+    pyramid: true,
+    labyrinth: true,
+    final: true,
+};
