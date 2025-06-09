@@ -1,6 +1,17 @@
+<script lang="ts">
+    interface Props {
+        width?: string;
+        height?: string;
+        class?: string;
+    }
+
+    let { width, height, class: className }: Props = $props();
+</script>
+
 <svg
-    width="47"
-    height="47"
+    width={width || "47"}
+    height={height || "47"}
+    class={className}
     viewBox="0 0 47 47"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"

@@ -30,9 +30,16 @@ export const currentStep: "waiting" | "pyramid" | "labyrinth" | "final" = "pyram
 export const stepNumber = 1;
 export const stepOffset = 96 + stepNumber * 336;
 
-export const dungeonHintsOpened = {
-    basement: true,
-    pyramid: true,
-    labyrinth: true,
-    final: true,
+export const dungeonNotesOpened = {
+    basement: false,
+    pyramid: false,
+    labyrinth: false,
+    final: false,
 };
+
+export const notesStatuses = {
+    basement: [false, false, false, false],
+    pyramid: [false, false, false, false],
+    labyrinth: [false, false, false],
+    final: [false, false],
+}

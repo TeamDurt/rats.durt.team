@@ -5,7 +5,7 @@
     const navItems = [
         { path: redirectToWelcome ? "/welcome" : "/", label: "главная" },
         { path: "/about", label: "об ивенте" },
-        { path: "/hints", label: "подсказки" },
+        { path: "/notes", label: "записки" },
     ];
 </script>
 
