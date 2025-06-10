@@ -23,4 +23,4 @@
 </div>
 <h2 class="text-primary font-bold text-4xl mt-16 mb-8">Ваш прогресс в пути Чумного Доктора:</h2>
 <PathProgress />
-<div class="w-full h-16"></div>
+<div class="w-full h-24"></div>

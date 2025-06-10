@@ -83,6 +83,7 @@
         </svg>
     </button>
 </div>
+
 <div class="w-full grid grid-cols-2 gap-16 mt-48">
     <div class="flex flex-col gap-8">
         <h2 class="text-3xl text-heading font-medium">Записки</h2>
@@ -132,3 +133,4 @@
         <span class="text-card-bg text-2xl font-semibold">Download</span>
     </a>
 </div>
+<div class="w-full h-12"></div>

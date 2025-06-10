@@ -94,4 +94,6 @@
     <LockSquare class="absolute top-0 right-0 translate-x-1/3 -translate-y-1/3" />
 </div>
 {/if}
+<div class="w-full h-36"></div>
+
 {/if}

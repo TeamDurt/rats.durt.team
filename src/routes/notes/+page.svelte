@@ -63,3 +63,4 @@
         {/if}
     </div>
 </div>
+<div class="w-full h-24"></div>

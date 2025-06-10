@@ -151,3 +151,4 @@
     </div>
 </div>
 {/if}
+<div class="w-full h-24"></div>

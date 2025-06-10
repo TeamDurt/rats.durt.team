@@ -79,4 +79,6 @@
     </div>
     {/if}
 </div>
+<div class="w-full h-36"></div>
+
 {/if}
