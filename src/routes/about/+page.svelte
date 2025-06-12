@@ -127,8 +127,8 @@
 </div>
 
 <div class="w-fit h-fit my-16 p-4 pl-10 flex flex-row gap-32 items-center bg-card-bg rounded-4xl">
-    <span class="text-2xl font-medium">ratsmania_resources.zip</span>
-    <a href="/ratsmania_resources.zip" download class="bg-primary rounded-3xl py-4 px-6 cursor-pointer flex flex-row gap-4">
+    <span class="text-2xl font-medium">server_resourcepack.zip</span>
+    <a href="/server_resourcepack.zip" download class="bg-primary rounded-3xl py-4 px-6 cursor-pointer flex flex-row gap-4">
         <Download height="32" />
         <span class="text-card-bg text-2xl font-semibold">Download</span>
     </a>
