@@ -4,7 +4,7 @@ const COLORS = {
     heading: "#ffffff",
 };
 
-export const redirectToWelcome = true;
+export const redirectToWelcome = false;
 
 export const relicsOpened = {
     musicDisk: false,
@@ -17,9 +17,9 @@ export const relicsOpened = {
 type ProgressStep = { type: "point", status: "empty" | "point" | "completed", color: string } | { type: "line", progress: number };
 
 export const progressSteps: ProgressStep[] = [
-    { type: "point", status: "point", color: COLORS.heading },
-    { type: "line", progress: 0 },
-    { type: "point", status: "empty", color: COLORS.paragraph },
+    { type: "point", status: "completed", color: COLORS.heading },
+    { type: "line", progress: 100 },
+    { type: "point", status: "point", color: COLORS.primary },
     { type: "line", progress: 0 },
     { type: "point", status: "empty", color: COLORS.paragraph },
     { type: "line", progress: 0 },
@@ -27,7 +27,7 @@ export const progressSteps: ProgressStep[] = [
 ];
 
 export const currentStep: "waiting" | "pyramid" | "labyrinth" | "final" = "waiting";
-export const stepNumber = 0;
+export const stepNumber = 1;
 export const stepOffset = 96 + stepNumber * 336;
 
 export const dungeonNotesOpened = {
@@ -38,7 +38,7 @@ export const dungeonNotesOpened = {
 };
 
 export const notesStatuses = {
-    basement: [false, false, false, false],
+    basement: [true, true, true, true],
     pyramid: [false, false, false, false],
     labyrinth: [false, false, false],
     final: [false, false],
