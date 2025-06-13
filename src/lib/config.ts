@@ -18,7 +18,7 @@ type ProgressStep = { type: "point", status: "empty" | "point" | "completed", co
 
 export const progressSteps: ProgressStep[] = [
     { type: "point", status: "completed", color: COLORS.heading },
-    { type: "line", progress: 100 },
+    { type: "line", progress: 70 },
     { type: "point", status: "point", color: COLORS.primary },
     { type: "line", progress: 0 },
     { type: "point", status: "empty", color: COLORS.paragraph },
