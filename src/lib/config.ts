@@ -31,7 +31,7 @@ export const stepNumber = 0;
 export const stepOffset = 96 + stepNumber * 336;
 
 export const dungeonNotesOpened = {
-    basement: false,
+    basement: true,
     pyramid: false,
     labyrinth: false,
     final: false,
