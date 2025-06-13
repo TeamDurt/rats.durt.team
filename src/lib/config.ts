@@ -18,21 +18,21 @@ type ProgressStep = { type: "point", status: "empty" | "point" | "completed", co
 
 export const progressSteps: ProgressStep[] = [
     { type: "point", status: "completed", color: COLORS.heading },
-    { type: "line", progress: 70 },
+    { type: "line", progress: 100 },
     { type: "point", status: "point", color: COLORS.primary },
-    { type: "line", progress: 0 },
+    { type: "line", progress: 30 },
     { type: "point", status: "empty", color: COLORS.paragraph },
     { type: "line", progress: 0 },
     { type: "point", status: "empty", color: COLORS.paragraph },
 ];
 
-export const currentStep: "waiting" | "pyramid" | "labyrinth" | "final" = "waiting";
+export const currentStep: "waiting" | "pyramid" | "labyrinth" | "final" = "pyramid";
 export const stepNumber = 1;
 export const stepOffset = 96 + stepNumber * 336;
 
 export const dungeonNotesOpened = {
     basement: true,
-    pyramid: false,
+    pyramid: true,
     labyrinth: false,
     final: false,
 };
