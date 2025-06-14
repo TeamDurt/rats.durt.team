@@ -11,7 +11,7 @@ export const relicsOpened = {
     blade: false,
     staff: false,
     egg: false,
-    voodoo: false,
+    voodoo: true,
 };
 
 type ProgressStep = { type: "point", status: "empty" | "point" | "completed", color: string } | { type: "line", progress: number };
@@ -39,7 +39,7 @@ export const dungeonNotesOpened = {
 
 export const notesStatuses = {
     basement: [true, true, true, true],
-    pyramid: [false, false, true, false],
+    pyramid: [false, true, true, false],
     labyrinth: [false, false, false],
     final: [false, false],
 }
