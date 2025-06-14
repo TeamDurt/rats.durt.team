@@ -19,15 +19,15 @@ type ProgressStep = { type: "point", status: "empty" | "point" | "completed", co
 export const progressSteps: ProgressStep[] = [
     { type: "point", status: "completed", color: COLORS.heading },
     { type: "line", progress: 100 },
+    { type: "point", status: "completed", color: COLORS.heading },
+    { type: "line", progress: 100 },
     { type: "point", status: "point", color: COLORS.primary },
-    { type: "line", progress: 30 },
-    { type: "point", status: "empty", color: COLORS.paragraph },
     { type: "line", progress: 0 },
     { type: "point", status: "empty", color: COLORS.paragraph },
 ];
 
-export const currentStep: "waiting" | "pyramid" | "labyrinth" | "final" = "pyramid";
-export const stepNumber = 1;
+export const currentStep: "waiting" | "pyramid" | "labyrinth" | "final" = "waiting";
+export const stepNumber = 2;
 export const stepOffset = 96 + stepNumber * 336;
 
 export const dungeonNotesOpened = {
@@ -39,7 +39,7 @@ export const dungeonNotesOpened = {
 
 export const notesStatuses = {
     basement: [true, true, true, true],
-    pyramid: [false, true, true, false],
+    pyramid: [true, true, true, true],
     labyrinth: [false, false, false],
     final: [false, false],
 }
