@@ -39,7 +39,7 @@ export const dungeonNotesOpened = {
 
 export const notesStatuses = {
     basement: [true, true, true, true],
-    pyramid: [false, false, false, false],
+    pyramid: [false, false, true, false],
     labyrinth: [false, false, false],
     final: [false, false],
 }
