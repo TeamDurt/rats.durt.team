@@ -8,9 +8,9 @@ export const redirectToWelcome = false;
 
 export const relicsOpened = {
     musicDisk: false,
-    blade: false,
+    blade: true,
     staff: false,
-    egg: false,
+    egg: true,
     voodoo: true,
 };
 
@@ -21,12 +21,12 @@ export const progressSteps: ProgressStep[] = [
     { type: "line", progress: 100 },
     { type: "point", status: "completed", color: COLORS.heading },
     { type: "line", progress: 100 },
+    { type: "point", status: "completed", color: COLORS.heading },
+    { type: "line", progress: 100 },
     { type: "point", status: "point", color: COLORS.primary },
-    { type: "line", progress: 30 },
-    { type: "point", status: "empty", color: COLORS.paragraph },
 ];
 
-export const currentStep: "waiting" | "pyramid" | "labyrinth" | "final" = "labyrinth";
+export const currentStep: "waiting" | "pyramid" | "labyrinth" | "final" = "waiting";
 export const stepNumber = 2;
 export const stepOffset = 96 + stepNumber * 336;
 
@@ -40,6 +40,6 @@ export const dungeonNotesOpened = {
 export const notesStatuses = {
     basement: [true, true, true, true],
     pyramid: [true, true, true, true],
-    labyrinth: [false, false, false],
+    labyrinth: [true, true, true],
     final: [false, false],
 }

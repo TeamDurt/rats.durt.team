@@ -114,7 +114,7 @@
 {#if currentStep === "waiting"}
 <div class="w-full h-[592px] mb-12 bg-card-bg rounded-[40px] relative flex flex-col items-center pt-22">
     <h2 class="text-primary font-semibold text-5xl z-10">Ожидайте новое испытание</h2>
-    <p class="text-lg font-light mt-2 z-10">После прохождения текущего подземелья, следующее станет доступен в течение суток.</p>
+    <p class="text-lg font-light mt-2 z-10">Время появления последнего подземелья будет объявлено позднее. Следите за новостями</p>
     <img src={waitingStep} alt="Waiting" class="absolute top-0 left-0 w-full h-full">
 </div>
 {:else if currentStep === "pyramid"}
