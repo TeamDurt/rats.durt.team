@@ -1,4 +1,4 @@
-import{c as k,a as t,f as i}from"../chunks/mFb6avGX.js";import"../chunks/D0l3wLi5.js";import{o as y}from"../chunks/DzfpNSIL.js";import{p as B,f,a as L,s as l,n as M}from"../chunks/BBWM_nZi.js";import{i as e}from"../chunks/BZEXvxYT.js";import{i as j}from"../chunks/v2oGzZAl.js";import"../chunks/iNjdZzSz.js";var q=i(`<div class="w-1/2 h-fit rounded-[40px] mt-12 px-8 py-6 bg-card-bg relative self-start"><p class="w-full wrap-break-word whitespace-pre-wrap text-2xl">Заходи, смелее, путник,
+import{c as k,a as t,f as i}from"../chunks/CnDPLpv7.js";import"../chunks/DEe8Rzig.js";import{o as y}from"../chunks/A-a4K-cH.js";import{p as B,f,a as L,s as l,n as M}from"../chunks/DCChSliF.js";import{i as e}from"../chunks/qDMcjzsV.js";import{i as j}from"../chunks/DrWEooRL.js";import"../chunks/Cld89MlM.js";var q=i(`<div class="w-1/2 h-fit rounded-[40px] mt-12 px-8 py-6 bg-card-bg relative self-start"><p class="w-full wrap-break-word whitespace-pre-wrap text-2xl">Заходи, смелее, путник,
 В край теней, где тайна ждет,
 Где Бобртавр, словно буря,
 Ходит кругом, страж ворот.
