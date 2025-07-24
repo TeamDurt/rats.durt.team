@@ -21,7 +21,7 @@
     </a>
     <div class="flex flex-col gap-1 items-center">
         <h1 class="text-xl font-light">детальный просмотр записок:</h1>
-        <h1 class="text-primary text-4xl font-bold">Старый подвал</h1>
+        <h1 class="text-primary text-4xl font-bold">Логово Чумного Доктора</h1>
     </div>
     <div></div>
 </div>

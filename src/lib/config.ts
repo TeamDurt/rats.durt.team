@@ -26,15 +26,15 @@ export const progressSteps: ProgressStep[] = [
     { type: "point", status: "point", color: COLORS.primary },
 ];
 
-export const currentStep: "waiting" | "pyramid" | "labyrinth" | "final" = "waiting";
-export const stepNumber = 2;
+export const currentStep: "waiting" | "pyramid" | "labyrinth" | "final" = "final";
+export const stepNumber = 3;
 export const stepOffset = 96 + stepNumber * 336;
 
 export const dungeonNotesOpened = {
     basement: true,
     pyramid: true,
     labyrinth: true,
-    final: false,
+    final: true,
 };
 
 export const notesStatuses = {
