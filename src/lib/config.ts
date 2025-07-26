@@ -7,9 +7,9 @@ const COLORS = {
 export const redirectToWelcome = false;
 
 export const relicsOpened = {
-    musicDisk: false,
+    musicDisk: true,
     blade: true,
-    staff: false,
+    staff: true,
     egg: true,
     voodoo: true,
 };
@@ -23,7 +23,7 @@ export const progressSteps: ProgressStep[] = [
     { type: "line", progress: 100 },
     { type: "point", status: "completed", color: COLORS.heading },
     { type: "line", progress: 100 },
-    { type: "point", status: "point", color: COLORS.primary },
+    { type: "point", status: "completed", color: COLORS.primary },
 ];
 
 export const currentStep: "waiting" | "pyramid" | "labyrinth" | "final" = "final";
@@ -41,5 +41,5 @@ export const notesStatuses = {
     basement: [true, true, true, true],
     pyramid: [true, true, true, true],
     labyrinth: [true, true, true],
-    final: [false, false],
+    final: [true, true],
 }
